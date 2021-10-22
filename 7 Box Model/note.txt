@@ -1,0 +1,13 @@
+Margin 
+
+Margin : Top Right Bottom Left (searah jarum jam)
+Margin : 7px;
+    --> semua Margin sama value nya yaitu 7 pixel
+
+Margin : 8px              9px;
+         ||                ||
+     (Top & bottom)    (Right & Left)
+
+ KANAN selalu sama dengan KIRI.... ATAS selalu sama dengan BAWAH (berlaku untuk Margin & Padding)
+
+BORDER-STYLE terdiri dari Solid (garis Lurus), Dashed (strip-strip), & Dotted (Titik - Titik)

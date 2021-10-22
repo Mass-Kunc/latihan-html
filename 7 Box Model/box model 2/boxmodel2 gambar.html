@@ -1,0 +1,133 @@
+<html>
+<head>
+	<title>CSS Box Model</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		.centered {
+			margin: 0 auto;
+			text-align: left;
+			width: 800px;
+		}
+		.header {
+			background-color : green;
+			font-family : calibri;
+			font-size : 37pt;
+			line-height: 2px;
+			letter-spacing : 22px;
+			color : yellow;
+			width : 750px;
+			height : 70px;
+			margin : 0px 0px 50px 0px;
+			padding : 50px 30px 20px 40px;
+			border : 1px solid black;
+		}
+		
+		.header p {
+			font-family : algerian;
+			font-size : 18pt;
+			letter-spacing : 10px;
+			line-height : 22px;
+		}
+		
+		.footer {
+			background-color : green;
+			color : yellow;
+			width : 750px;
+			height : 20px;
+			margin : 0px 0px 50px 0px;
+			padding : 20px 30px 20px 40px;
+			border : 1px solid black;
+		}
+		.kontenatas {
+			background-color : green;
+			color : yellow;
+			font-size : 100px;
+			width : 300px;
+			height : 150px;
+			margin : 20px 30px 50px 10px;
+			padding : 50px 30px 20px 40px;
+			text-align : center;
+			border : 1px solid black;
+		}
+		.kontenatas2 {
+			background-color : green;
+			color : yellow;
+			font-size : 100px;
+			width : 300px;
+			height : 150px;
+			margin : -272px 10px 50px 435px;
+			padding : 50px 30px 20px 40px;
+			border : 1px solid black;
+		}
+		.kontenbawah {
+			color : yellow;
+			width : 725px;
+			height : 190px;
+			margin : 30px 30px 50px 10px;
+			padding : 50px 30px 20px 40px;
+			border : 1px solid black;
+		}
+		#kotakdalam { 
+			margin-top:-50px; 
+			width:100%;
+			
+		}
+		#kotakdalam li { 
+			/*width: 200px; 
+			height:110px; */
+			margin-right:10px;
+			margin-bottom:10px;
+			list-style:none; 
+			text-align:center;
+			float:left; 
+			/*background-color:green;
+			border:1px solid #555555; */\
+			padding-top:24px;
+		}
+		#kotakdalam li b { 
+			color:red; 
+			text-decoration:none;  
+		}
+		
+		#kotakdalam li img {
+		    width : 200px;
+			/*height : 222px;*/
+		}
+		
+		#kotakdalam p {
+		font-family : arial;
+		color : red;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="centered">
+		<div class="header">
+			Header 
+			<p>Slogan</p>
+		</div>
+		<div class="kontenatas">
+			I
+		</div>
+		<div class="kontenatas2">
+			II
+		</div>
+		<div class="kontenbawah">
+			<div id="kotakdalam">
+				<ul>
+					<li> <p>Ini Koala</p> <img src = "koala.jpg"></li> <!-- Jika Tag <p> ADA DI KIRI <img src""> , Maka Tulisan akan muncul di bawah Gambar-->
+					<li> <p>Ini Penguins</p> <img src = "Penguins.jpg"> </li>					<!-- Dan sebaliknya-->
+					<li> <p>Ini Jellyfish</P> <img src = "jellyfish.jpg"> </li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			Footer
+		</div>
+	</div>
+</body>
+</html>

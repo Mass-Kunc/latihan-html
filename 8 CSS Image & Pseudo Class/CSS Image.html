@@ -1,0 +1,39 @@
+<style>
+	#box {
+		width : 100%;
+		height : 100%;
+		background : url(gambar/koala.jpg);
+		background-repeat : repeat-x;
+		/*background-repeat : repeat-y;*/
+		/*background-repeat : no-repeat;*/
+		
+		/*background-position-x : 150px;*/				/* 'y' untuk Vertikal/ sumbu Y || 'x' untuk Horizontal/ sumbu X */
+    	/*background-position-y : 150px;*/
+		background-position : 150px 150px;
+	} 
+	
+	#Button {
+		width : 140px;
+		Height : 150px;
+		background-image : url(gambar/sprite.png);
+		background-position-x : 0;						<!--/* Posisi Awal pada koordinat X = 0 */-->
+	}
+		
+	#button:hover {												
+		background-position-x : -150px;					<!--Button Hover untuk menggeser gambar secara horizontal ke koordinat X = -150  -->
+	}
+	
+	/* Untuk Link yang Belum di klik */  		 /*<!-- ini Adalah Urutan Mutlak yg TIDAK BISA di acak2 -->*/
+	a:link { color:pink; }
+	/* Untuk Link yang Sudah di klik */
+	a : visited { color:black; }
+	/* Ketika cursor berada di atas link*/
+	a:hover { color:red; }
+	/* Ketika Link dalam keadaan aktif/terpilih */
+	a:active { color:green; }
+</style>
+
+<!-- <div id = "box">  </div> --> 
+
+<div id = "button"> </div>
+<a href = "#"> MenCoba LINK </a>
