@@ -1,0 +1,10 @@
+Format Teks HTML
+
+
+<p>&nbsp</p> => menampilkan paragraf tapi kososng (seperti menekan ENTER)
+<ol></ol>    => membuat list (daftar) berdasarkan angka yang berurutan
+<ul></ul>    => membuat list (daftar) menggunakan simbol [@#*]
+
+<dl> </dl>   => membuat Suatu Keterangan dari judul dan Penjelasannya
+                ex (Baju adalah   )
+                   (       Pakaian)

@@ -1,0 +1,37 @@
+<!doctype.html>
+
+<html>
+    <form name = bio method= post action = "" enctype="multiple/form-data">
+	     
+		 <label> Nama : </label>
+		 <input type = "text" name = "nama" > <br><br>
+		 <label > Alamat : </label>
+		 <textarea  rows = 2 cols = 22 name = alamat> </textarea><br><br>
+	
+		 <label> Kota :</label>
+		<select name = "kota">
+		   <option value = YOG > Yogyakarta</option>
+		   <option value = SEM > Semarang</option>
+		   <option value = JAK selected> Jakarta</option>
+		</select><br>
+		<ul> <label> JENIS KURSUS : </label><br>
+		     <li>  <input type = checkbox name = kursus value = b.ing> Bahasa Inggris     </li>
+		     <li>  <input type = checkbox name = kursus value = komp> Komputer            </li>
+		     <li>  <input type = checkbox name = kursus value checked = mtk>Matematika    </li>
+		</ul>
+		
+		<ul> <label> Tempat Tinggal : </label><br>
+		        <li> <input type = radio name = tmp value = "k"> Kost              </li>
+		        <li> <input type = radio name = tmp value = "r" checked> rumah     </li>
+		        <li ><input type = radio name = tmp value = "a"> apartment         </li>
+		</ul> 
+		
+		 <label> Uunggah File : </label>
+		 <input type = file  name = unggah > 
+		<br>
+		<br>
+		<input type = reset value = Hapus_Kabeh>
+		<input type = submit value = OKEH>
+		
+	</form>
+</html>

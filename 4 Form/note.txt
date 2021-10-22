@@ -1,0 +1,14 @@
+Yang wajib ada dalam tag form 
+1. Action
+2. Method
+
+Value = data yang dikirimkan ke pembuat 
+          <input value = YOG> Yogyakarta
+          Maka yg akan terkirim adalah "YOG"
+input type :
+  Submit = untuk menyimpan/mengirim data yg sudah diisi
+  reset  = Untuk Menghapus semua data yang sudah diisi
+  checkbox = 'name'nya harus berbeda agar bisa dipilih lebih dari satu
+  radio  = 'name'nya harus sama karena pilih salah satu (Jenis Kelamin)
+checked  = untuk menandai default pilihan (checkbox / radio)
+selected = untuk menandai default pilihan combo box (option)

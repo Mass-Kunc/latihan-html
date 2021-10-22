@@ -1,0 +1,17 @@
+TABLE
+
+<table></table> = Membuat table
+<tr></tr> (table Row) = untuk membuat baris dalam table 
+  <td></td> (table Data) = untuk membuat atau menulis data (bukan mengisi) pada <td>(table row) 
+                           {bersifat menyamping}
+  <th></th>  (table header) = header, tulisan tebal dan tengah auto
+                           
+                            <tr> | th | th | th | </tr>
+                            <tr> | td | td | td | </tr>
+
+                            <tr> | td | td | td | </tr>
+                           
+
+ (COLSPAN = "[angka]" ) => MENGGABUNGKAN KOLOM (MERGE CELL)
+ 
+ (ROWSPAN = "[angka]" ) => MENGGABUNGKAN BARIS (MERGE CELL)
